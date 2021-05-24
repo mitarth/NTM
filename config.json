@@ -1,0 +1,27 @@
+{
+  "mode": "train",
+  "restore_training": false,
+  "test_seq_length": 5,
+  "model_type": "NTM",
+  "cell_params": {
+    "NTM": {
+      "rnn_size": 64,
+      "memory_size": 20,
+      "memory_vector_dim": 8,
+      "read_head_num": 1,
+      "write_head_num": 1,
+      "shift_range": 1
+    },
+    "LSTM": {
+      "rnn_size": 128,
+      "rnn_num_layers": 3
+    }
+  },
+  "max_seq_length": 5,
+  "batch_size": 10,
+  "vector_dim": 5,
+  "num_batches": 10001,
+  "learning_rate": 1e-3,
+  "save_dir": "save/copy_task",
+  "tensorboard_dir": "summary/copy_task"
+}
