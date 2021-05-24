@@ -12,8 +12,12 @@ Numpy
 The implementation is inspired by the implementation of snowkylin/ntm(https://github.com/snowkylin/ntm) and Mark Collier's implementation of NTM(https://github.com/MarkPKCollier/NeuralTuringMachine). 
 
 **Steps to run**
-Clone the directory.
-Modify the Controller parameters in config.json(RNN size and RNN layers)
-Modify Max Sequence length, test Sequence length and vector dim to the sequence length for which you want to train the application.
-Run Task.py with 'train' as mode in config to train the data.
-Run Task.py with 'test' as mode in config to test the data.
+1. Clone the directory.
+
+2. Modify the Controller parameters in config.json(RNN size and RNN layers)
+
+3. Modify Max Sequence length, test Sequence length and vector dim to the sequence length for which you want to train the application.
+
+4. Run Task.py with 'train' as mode in config to train the data.
+
+5. Run Task.py with 'test' as mode in config to test the data.
